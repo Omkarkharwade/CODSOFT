@@ -2,10 +2,10 @@ import random
 
 item_list = ["Rock", "Paper", "Scissor"]
 
-# Taking user input
+
 user_choice = input("Enter your move (Rock, Paper, Scissor): ").title()
 
-# Validate user input
+
 if user_choice not in item_list:
     print("Invalid input! Please enter Rock, Paper, or Scissor.")
 else:
